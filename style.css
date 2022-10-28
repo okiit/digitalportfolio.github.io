@@ -1,0 +1,206 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+    background-image: url(images/background.gif);
+    padding: 3% 3% 3% 3%;
+    background-size: auto;
+}
+
+.container-fluid {
+    height: 950px;
+    width: auto;
+}
+
+.topRight {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.nav-item {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+#left {
+    font-size: 170%;
+    padding-bottom: 10px;
+}
+
+.about {
+    float: right;
+    padding: 0px 25px 0px 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.contact {
+    float: right;
+    padding: 0px 0px 0px 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.back {
+    float: right;
+    padding: 0px 0px 0px 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.iconNav {
+    text-align: center; 
+}
+
+.behindthescenes {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.bts {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.row {
+    text-align: center;
+}
+
+.applications {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+/*aboutme*/
+
+#aboutMe {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    height: 900px;
+    width: auto;
+}
+
+#quiery {
+    margin-right: 10%;
+}
+
+/*contactme*/
+
+#contactMe {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    height: 900px;
+    width: auto;
+    padding-top: 4%;
+}
+
+.contactForm {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.aboutmeTop {
+    margin-top: 1%;
+}
+
+.aboutmeMiddle {
+    margin-top: 7%;
+    text-align: end;
+    margin-left: 20%;
+}
+
+.aboutmeBottom {
+    margin-top: 7%;
+}
+
+/*videopage*/
+
+#videoComponent {
+    margin-top: 4%;
+    margin-bottom: 17%;
+    text-align: center; 
+    height: 60%;
+}
+
+#bts {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3%;
+}
+
+.VideoImages {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 85%
+}
+
+.row {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    align-content: center;
+    margin-bottom: 5%;
+}
+
+/*websitepage*/
+
+.website {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center; 
+    height: 65%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+/*link stuff*/
+
+.nav-link {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.nav-link:hover {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+  color: white;
+    text-decoration: none;
+}
+
+/*back to the top button*/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 55px; 
+    right: 55px; 
+    z-index: 99; 
+    color: white; 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;  
+    font-size: 18px; 
+    font-family: 'Roboto Mono', monospace;
+}

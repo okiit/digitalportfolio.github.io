@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <Title> kirsten wijaya || unity 3D </Title>   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device=width, initial=scale=1"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    
+    <style>
+    
+    </style>
+    
+</head>
+    
+<body>
+    
+    <div class="container-fluid">
+        
+        <div class="d-flex bg-clear text-white">
+    
+            <div class="topRight">
+            
+                <div id="left">
+                    <b> 3d rube goldberg machine in unity </b>
+                </div>
+            
+                <i>by kirsten wijaya</i>
+            
+            </div>
+            
+            <ul class="nav justify-content-end">
+                
+                <li class="nav-item">
+                <a class="nav-link" href="index.html"> ᐊ go back </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+        <div id="videoComponent">
+            
+            <iframe width="80%" height="100%" src="https://www.youtube.com/embed/2IZL3RIOXFU" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+            
+            <div class="bts"> 
+            
+            <a class="nav-link" href="#bts"> ᐁ behind the scenes </a>
+            
+            </div>
+            
+        </div>
+        
+    </div>
+        
+        <!-- behind the scenes section -->
+        
+        
+        <div id="bts">
+            
+            <div id="left">
+                
+                <b>behind the scenes</b>
+                
+            </div>
+            
+                    <br><p>I worked in Unity, which is a 3D rendering engine, in order to create a 3D Rube Goldberg Machine. A Rube Goldberg Machine is a machine that operates solely on overly complicated cause and effect to complete a mundane, simple task.
+                    </p>
+                
+                    <p>A working prototype was important to make sure the build was working properly, and if there were issues, then I could go back to fix it.  It would also give a client a sense of direction and a general idea of where the build was going and if it satisfied their requests.</p>
+            
+                    <p>Working in 3D media, I had to consider the z axis. This new axis made it harder to sketch out possible designs for the machine unless I drew all my designs with the 3rd axis in mind. Even this would still propose issues, as the introduction of the third dimension would mean that portions of the machine would be hidden behind closer sections.</p>
+            
+                    <p>In 2D work such as video editing, the camera essentially acts as the eyes of the viewer and only sees the work as flat layers. Comparatively, in 3D work, the camera allows the viewer to see the depth of the project, and immerses the viewer into the work.</p>
+            
+                <div class="VideoImages">
+                    
+                    <img src="images/newAxis.jpg" width="50%" alt="A screenshot from within Unity, where I worked with a new axis.">
+            
+                    <p><i>working with a new axis when working in 3d. </i></p>
+                    
+                </div>
+                
+                    <p>In my 3D design, the integrated sound component allowed me to further push the illusion that the elements in my build were what they appeared to be. By pairing the sound of rocks colliding with the onscreen action of the rocks tumbling over each other, I create a more authentic visual of physical rocks on screen.</p>
+            
+                    <p>Originally, I wanted to create a retro pinball machine/space themed build, however I quickly became stumped by the lack of ideas and assets available to bring this machine to life. Fortunately, I received feedback from a peer, in which he commented that my work in progress had reminded him of a scene in “Horton Hears a Who”. From there, I re-evaluated my design, and rebranded my machine around that idea. This made it easier to construct my machine due to the abundance of appropriate assets.</p>
+                
+                    <p>My research mainly consisted of reinforcing my knowledge of Unity by rewatching tutorials. Testing my work played a huge role in making sure the build was working properly before moving on. Building my entire machine without testing it after significant changes and risking error would mean that if I found an error, I would have to find it, fix it, and then readjust the rest of the build to accommodate the fixture.</p>
+            
+            
+            <div class="applications">
+            
+            <p> <i> applications used for this project: </i> </p>
+                
+            </div>
+            
+                <div class="row">
+            
+                    <div class="col-lg-12">
+                    
+                    <img src="images/unity.png" alt="The Unity Logo" width="100px">
+                    
+                    <p><i> Unity </i></p>
+                
+                    </div>
+                    
+                </div>
+            
+        </div>
+    
+    
+    <!-- javascript -->
+    
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">ᐃ back to the top</button>
+    
+    <script>
+    
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } else {
+        mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    
+    </script>
+    
+</body>
